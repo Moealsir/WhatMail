@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom gradient for navbar */
+.navbar-gradient {
+    background: linear-gradient(270deg, rgba(62,126,168,1) 24%, rgba(90,144,180,1) 54%, rgba(255,255,255,1) 100%);
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
