@@ -23,7 +23,6 @@ Here's the updated `README.md` file with the correct database information:
 - **Automated Messaging:** Send scheduled messages through WhatsApp using Puppeteer.
 - **User Authentication:** Secure user login and registration.
 - **Email Scheduling:** Set specific dates and times for messages to be sent.
-- **Dashboard:** Manage scheduled messages and view their status.
 
 ## Tech Stack
 
@@ -42,7 +41,6 @@ Here's the updated `README.md` file with the correct database information:
 ├── pages           # Next.js pages and API routes
 ├── public          # Static assets
 ├── styles          # Global and component-specific styles
-├── utils           # Utility functions
 ├── database        # SQL database connection and queries
 └── README.md       # Project documentation
 ```
@@ -67,28 +65,18 @@ Here's the updated `README.md` file with the correct database information:
    npm install
    ```
 
-4. Create a `.env` file in the root directory with the following variables:
-
-   ```bash
-   DB_HOST=your-database-host
-   DB_USER=your-database-username
-   DB_PASSWORD=your-database-password
-   DB_NAME=your-database-name
-   JWT_SECRET=your-jwt-secret
-   ```
-
-5. Initialize the database:
+4. Initialize the database:
 
    - Run the SQL script located in the `database` folder to create necessary tables and seed initial data.
    - Alternatively, you can use an ORM like Sequelize to manage migrations and seeding.
 
-6. Start the development server:
+7. Start the development server:
 
    ```bash
    npm run dev
    ```
 
-7. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+8. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
 ## Usage
 
