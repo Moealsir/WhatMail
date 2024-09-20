@@ -1,22 +1,21 @@
-Here's the updated `README.md` file with the correct database information:
 
----
+# Whatmail
 
-# What'smail
-
-**What'smail** is a web application that allows users to automate and send scheduled emails through WhatsApp. Built with Next.js, the project leverages the Puppeteer library to interact with WhatsApp Web and automate messaging.
+**Whatmail** is a web application that allows users to automate and send scheduled emails through WhatsApp. Built with Next.js, the project leverages the Puppeteer library to interact with WhatsApp Web and automate messaging.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Development Report](#development-report)
-- [Challenges](#challenges)
-- [Future Improvements](#future-improvements)
-- [License](#license)
+- [Whatmail](#whatmail)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+  - [Project Structure](#project-structure)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Development Report](#development-report)
+  - [Challenges](#challenges)
+  - [Future Improvements](#future-improvements)
+  - [License](#license)
 
 ## Features
 
@@ -28,7 +27,7 @@ Here's the updated `README.md` file with the correct database information:
 
 - **Frontend:** [Next.js](https://nextjs.org/)
 - **Backend:** [Node.js](https://nodejs.org/)
-- **Automation:** [Puppeteer](https://pptr.dev/)
+- **Whatsapp Module:** [wwebjs](https://wwebjs.dev/)
 - **Database:** [SQL (MySQL)](https://www.mysql.com/)
 - **Authentication:** Custom authentication with JWT (JSON Web Tokens)
 - **Styling:** CSS Modules, TailwindCSS
@@ -40,7 +39,6 @@ Here's the updated `README.md` file with the correct database information:
 ├── components      # Reusable UI components
 ├── pages           # Next.js pages and API routes
 ├── public          # Static assets
-├── styles          # Global and component-specific styles
 ├── database        # SQL database connection and queries
 └── README.md       # Project documentation
 ```
@@ -50,13 +48,13 @@ Here's the updated `README.md` file with the correct database information:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/whatsmail.git
+   git clone https://github.com/Moealsir/whatMail.git
    ```
 
 2. Change to the project directory:
 
    ```bash
-   cd whatsmail
+   cd whatMail
    ```
 
 3. Install dependencies:
@@ -81,9 +79,9 @@ Here's the updated `README.md` file with the correct database information:
 ## Usage
 
 1. Sign up or log in using your email and password.
-2. Navigate to the dashboard to create a new scheduled message.
-3. Enter the recipient's phone number, message content, and schedule date/time.
-4. Save the schedule. The message will be sent automatically at the specified time.
+2. Add creadentials through the sign `up page.`
+3. Confirm the whatsapp number.
+4. Authorize your account.
 
 ## Development Report
 
